@@ -3,19 +3,19 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("94741868472")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://KING-MDBOT:KING-MDBOT@cluster0.ltjjfkx.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
-global.github = 'https://github.com/kushansewmina1234/DARK-SHAN-MD'
+global.github = 'https://github.com/SithumEshan45/DARK-SHAN-MD'
 global.location = 'pakistan'
-global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '9471234567'
+global.gurl = 'https://youtube.com/@SithumBoy-?si=Sw3WViFGkIdeTkO-' // add your username
+global.sudo = process.env.SUDO || '94741868472'
 global.devs = '94772108460';
-global.website = 'https://github.com/kushansewmina1234/DARK-SHAN-MD' // Hello world
+global.website = 'https://youtube.com/@SithumBoy-?si=Sw3WViFGkIdeTkO-' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ee0f303f5da6d86d024e0.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'DARK-SHAN-MD' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'DARK-⃞🌷𝗦𝗜𝗧𝗛𝗨𝗠 𝗕𝗢𝗬💙⃝-MD' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'DARKSHAN' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'DARKSHAN' : process.env.PACK_AUTHER.split(";")[0],
@@ -25,7 +25,7 @@ module.exports = {
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'fuck' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE,
-  readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
+  readmessage:  process.env.READ_MESSAGE === undefined ? true : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? true : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
@@ -34,12 +34,12 @@ module.exports = {
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
-  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
+  ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '```Hi User I am Alive Now```' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
-  heroku:  process.env.heroku === undefined ? false : process.env.heroku,
+  heroku:  process.env.heroku === undefined ? true : process.env.heroku,
   HEROKU: {
-    HEROKU: process.env.HEROKU ||false,
+    HEROKU: process.env.HEROKU ||true ,
     API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME
 },
