@@ -1,5 +1,6 @@
 const { tlang, botpic, cmd, prefix, runtime, Config, formatp, fetchJson } = require('../lib')
 const { download} = require('aptoide-scraper')
+
 cmd({
     pattern: "apk",
     alias: ["downapk","playstore"],
@@ -49,5 +50,5 @@ let result = await download(text)
     citel.reply(` *❌ An error occurred while processing your request. Please try again later.* ${err}`);
   }
 })
-  //---------------------------------------------------------------------------
+  //---------------------------------------------------------------------------//
 
